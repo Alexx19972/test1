@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consultoría de Innovación Educativa">
+    <title>InnovaEd - Innovación Educativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>InnovaEd</h1>
+            <p>Consultoría en Innovación Educativa</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Innovamos la educación, transformamos el futuro</h2>
+            <p>Consultoría especializada en el diseño, implementación y seguimiento de procesos educativos innovadores.</p>
+            <a href="#services" class="btn">Nuestros Servicios</a>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="services" class="services">
+        <h2>Servicios</h2>
+        <div class="service-item">
+            <h3>Diagnóstico Educativo</h3>
+            <p>Identificamos áreas clave para la mejora en tu institución educativa.</p>
+        </div>
+        <div class="service-item">
+            <h3>Diseño de Innovación</h3>
+            <p>Desarrollamos planes personalizados de transformación educativa.</p>
+        </div>
+        <div class="service-item">
+            <h3>Seguimiento y Evaluación</h3>
+            <p>Aseguramos que la implementación sea efectiva y con resultados medibles.</p>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="about" class="about">
+        <h2>Nosotros</h2>
+        <p>En <strong>InnovaEd</strong>, somos un equipo de profesionales apasionados por transformar el sistema educativo. Ayudamos a instituciones a implementar soluciones innovadoras que mejoren el aprendizaje y preparen a los estudiantes para el futuro.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2024 InnovaEd. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
